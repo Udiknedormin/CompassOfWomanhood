@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="footer pa-5">{{ $t("FOOTER") }}</v-footer>
+  <v-footer class="footer pa-5">{{ $t("FOOTER.COPY") }}</v-footer>
 </template>
 
 <script setup lang="ts"></script>

@@ -1,5 +1,6 @@
 {
   "MENU": {
+    "HOME": "home",
     "ABOUT": "about",
     "CHARACTERS": "companions",
     "TEAM": "team"
@@ -62,5 +63,8 @@
   "TEAM": {
     "TITLE": "Meet our team"
   },
-  "FOOTER": "This project is not developed, supported or endorsed by BioWare, Black Isle nor Beamdog."
+  "FOOTER": {
+    "SOCIAL": "Drop by our social media",
+    "COPY": "This project is not developed, supported or endorsed by BioWare, Black Isle nor Beamdog."
+  }
 }

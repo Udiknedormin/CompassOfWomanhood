@@ -31,6 +31,9 @@ export default createVuetify({
           secondary: "#ffffff",
           background: "#00000b",
         },
+        variables: {
+          "border-opacity": 1,
+        },
       },
     },
   },

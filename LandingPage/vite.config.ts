@@ -1,4 +1,5 @@
 // Plugins
+import VueMacros from "unplugin-vue-macros/vite";
 import vue from "@vitejs/plugin-vue";
 import vuetify from "vite-plugin-vuetify";
 import eslintPlugin from "vite-plugin-eslint";
@@ -12,7 +13,11 @@ import { fileURLToPath, URL } from "node:url";
 export default defineConfig({
   base: "./",
   plugins: [
-    vue(),
+    VueMacros({
+      plugins: {
+        vue: vue(),
+      },
+    }),
     svgLoader(),
     vuetify({
       autoImport: true,

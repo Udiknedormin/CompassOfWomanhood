@@ -1,5 +1,6 @@
 {
   "MENU": {
+    "HOME": "strona główna",
     "ABOUT": "o projekcie",
     "CHARACTERS": "towarzyszki",
     "TEAM": "zespół"
@@ -62,5 +63,8 @@
   "TEAM": {
     "TITLE": "Poznaj nasz zespół"
   },
-  "FOOTER": "Ten projekt nie jest rozwijany, wspierany czy zatwierdzony przez BioWare, Black Isle ani Beamdog."
+  "FOOTER": {
+    "SOCIAL": "Zajrzyj na nasze social media",
+    "COPY": "Ten projekt nie jest rozwijany, wspierany czy zatwierdzony przez BioWare, Black Isle ani Beamdog."
+  }
 }
