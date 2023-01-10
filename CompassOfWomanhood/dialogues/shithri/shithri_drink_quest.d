@@ -155,21 +155,29 @@ Per Shithri's suggestion, I decided to give a try to fine liquor collecting. I n
 
   IF ~
     IsGabber(Player1)
-    Global("6W#ShithriDrinksStart","GLOBAL",4)
-    Global("6W#ShithriDrinksActive","GLOBAL",0)
+    Global("6W#ShithriDrinksAskedAboutStart","GLOBAL",1)
   ~ THEN BEGIN 6W#shithri_drinks_start__1
-    SAY @1000050 /* Ho, capt'n. Ye ready t' answer the liqie call? */
+    SAY @1000050 /* So, me capt'n. Ye ready t' answer the liqie call? */
 
     IF ~~ THEN
       REPLY @1000051 /* Of course! Let's go get some right now! */
+      DO ~
+        SetGlobal("6W#ShithriDrinksAskedAboutStart","GLOBAL",0)
+      ~
       GOTO 6W#shithri_drinks_start__good
 
     IF ~~ THEN
       REPLY @1000052 /* Can you repeat what's the plan? */
+      DO ~
+        SetGlobal("6W#ShithriDrinksAskedAboutStart","GLOBAL",0)
+      ~
       GOTO 6W#shithri_drinks_start__what_do_you_suggest
 
     IF ~~ THEN
       REPLY @1000053 /* No. No time. */
+      DO ~
+        SetGlobal("6W#ShithriDrinksAskedAboutStart","GLOBAL",0)
+      ~
       GOTO 6W#shithri_drinks_start__we_have_stuff_to_do
   END
 

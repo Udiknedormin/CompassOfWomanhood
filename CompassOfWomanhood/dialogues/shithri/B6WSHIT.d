@@ -334,7 +334,7 @@ CHAIN IF ~
   == BMINSC
   @1030203 /* Oh, yes! Jhuild, the greatest drink there is. Dynaheir used to make one for Minsc... did you try it during your adventures? */
   == B6WSHIT
-  @1030204 /* Nay, it be pretty pricey back in the Dragoncoast. Tried the other one though. The nightmare one. */
+  @1030204 /* Nay, it be pretty pricey back on the Dragoncoast. Tried the other one though. The nightmare one. */
   == BMINSC
   @1030205 /* Oh? Minsc didn't know that. What a shame there is no Jhuild here for us two to celebrate our great adventures! */
   == B6WSHIT
@@ -1158,11 +1158,11 @@ CHAIN IF ~
   == BMAZZY
   @1120108 /* Well, the gods... */
   == B6WSHIT
-  @1120109 /* Ah, 'em. Then tell me, me matey. Can halflings be druids? */
+  @1120109 /* Ah, 'em. Then tell, me matey. Can halflings be druids? */
   == BMAZZY
   @1120110 /* No. I don't think they can. */
   == B6WSHIT
-  @1120111 /* Yet there was one, back in the Dragoncoast. Whole party o' halflings, 'tis. Called "heroes o' Westgate". */
+  @1120111 /* Yet there be one, back in the Dragoncoast. Whole party o' halflings, 'tis. Called "heroes o' Westgate". */
   == BMAZZY
   @1120112 /* It must be just a legend. */
   == B6WSHIT

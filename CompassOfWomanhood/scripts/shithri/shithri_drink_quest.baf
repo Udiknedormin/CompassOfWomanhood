@@ -122,7 +122,6 @@ THEN
   RESPONSE #100
     SetInterrupt(FALSE)
     SetGlobal("6W#ShithriDrinksStart","GLOBAL",3)
-    SetGlobal("6W#ShithriDrinksActive","GLOBAL",1)
     SetGlobal("6W#ShithriDrinksHasUniqueDrinks","GLOBAL",0)
     Wait(1)
     // Shithri's drinks quest is still work in progress

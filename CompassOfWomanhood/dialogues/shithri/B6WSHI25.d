@@ -88,7 +88,7 @@ CHAIN IF ~
   @1020000 /* I must say, child, that you seem to serve your goddess well. */
   DO ~SetGlobal("6W#tob_banter_Shithri_Jaheira","GLOBAL",1)~
   == B6WSHI25
-  @1020001 /* I try, sha'nru. That be what me mother would want o' me, be she alive. */
+  @1020001 /* I try, sha'nru. That be what me mortal mother would want o' me, be she alive. */
   == BJAHEI25
   @1020002 /* What does it mean, this word you always address me with? */
   == B6WSHI25
@@ -133,7 +133,7 @@ CHAIN IF ~
   == BVICON25
   @1040006 /* Enough now, you...! */
   == B6WSHI25
-  @1040007 /* ...'n instead o' just askin' that woman fer a draught or a dozen, she be tryin' to get her attention by... */
+  @1040007 /* ...'n instead o' just askin' that woman fer a draught or a dozen, she be tryin' t' get 'er attention by... */
   == BVICON25
   @1040008 /* Not. Another. Word. Unless you want to get to know the drow ways of punishing offense more intimately. */
 EXIT

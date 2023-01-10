@@ -77,6 +77,9 @@ BEGIN
   // quests
   ~CompassOfWomanhood/dialogues/shithri/shithri_brynnlaw.d~
   ~CompassOfWomanhood/dialogues/shithri/shithri_drink_quest.d~
+
+  // player-initiated dialogues
+  ~CompassOfWomanhood/dialogues/shithri/shithri_pid.d~
 END
 
 SILENT

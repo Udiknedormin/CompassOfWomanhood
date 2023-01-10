@@ -34,6 +34,20 @@ END
 
 
 //
+// Call-me-back mechanism
+//
+IF
+  Global("6W#ShithriCallMeBack","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("6W#ShithriCallMeBack","GLOBAL",0)
+    StartDialogNoSet(Player1)
+    SetInterrupt(TRUE)
+END
+
+
+//
 // Dialogues
 //
 
